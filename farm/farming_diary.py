@@ -48,14 +48,3 @@ else:
     print("The rice crop is not ripe")
 
 
-my_rice2 = Rice()
-my_rice2.water()
-my_rice2.transplant()
-my_rice2.transplant()
-my_rice2.transplant()
-
-if my_rice2.ripe():
-    print(f"The rice2 crop is ripe {my_rice2.grains}")
-else:
-    print("The rice crop is not ripe")
-
